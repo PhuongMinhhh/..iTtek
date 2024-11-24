@@ -14,11 +14,11 @@ export default function Home() {
           <span className="text-xl">
             Giới thiệu
           </span>
-          <h1 className="h1 mb-6">
+          <h1 className="h1 mb-6 whitespace-nowrap scroll-animation">
             Xin chào,
-            <br/> Mình là <span className="text-accent">.it</span>TeK
+            <br/> Mình là <span className="text-accent">.it</span>Tek
             <br/>
-            Mình có thể hỗ trợ gì?
+            Rất vui khi gặp bạn !
           </h1>
           <p className="max-w-[500px] mb-9 text-white/80">
             Bọn mình chuyên tư vấn cấu hình, xây dựng cấu hình theo nhu cầu (chơi game ,làm đồ họa, văn phòng, chỉnh sửa... ). Lắp đặt và cài đặt phần mềm theo yêu cầu!
