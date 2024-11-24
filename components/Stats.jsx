@@ -22,7 +22,7 @@ const stats = [
       },
       {
           text:"Hackinosh",
-          num: 1,
+          num: 12,
           describe: " /../"
       }
 ]

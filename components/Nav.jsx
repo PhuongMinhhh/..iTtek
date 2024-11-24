@@ -30,7 +30,7 @@ const Nav = () =>{
      console.log(pathname)
      
      return(
-          <nav className="flex gap-8  ">
+          <nav className="flex gap-8 ">
                {links.map((link,index) =>{
           return <Link  className={`${link.path === pathname && "text-white  border-logo rounded-full px-2 bg-logo "} capitalize font-medium  transition-all`} key={index} href={link.path}>{link.name}</Link> 
                })}

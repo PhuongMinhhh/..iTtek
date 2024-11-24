@@ -37,23 +37,30 @@ const page = () => {
       <div className='container mx-auto '>
         <motion.div 
         initial={{ opacity: 0 }} 
-        animate={{ opacity:1 , transition: {delay:0.4, duration: 0.4, ease:"easeIn"} }} className="grid grid-cols-1 md:grid-cols-2 gap-[60px]">
+        animate={{ opacity:1 , transition: {delay:0.4, duration: 0.4, ease:"easeIn"} }}
+        className="grid grid-cols-1 md:grid-cols-2 gap-[60px]">
           {
             service.map((service,index)=>{
               return(
                 <div key={index} className="flex-1 flex flex-col justify-center gap-6 group">
-                  <div>
-                    <h2 className="text-accent text-3xl font-extrabold  group-hover:text-outline-hover p-2">
+                  <div className="w-full flex justify-between items-center">
+                    <div>
+                      <h2 className="text-[35px] font-bold leading-none text-white group-hover:text-accent trasition-all duration-500">
                       {service.title}
-                    </h2>   
-                    <div>Cấu hình đã build: <span className="text-accent text-2xl">{service.num}</span></div>
-                    <p>
-                      {service.describe}
-                    </p>
-                    <Link href={service.href} className="w-[70px] h-[70px] rounded-all bg-white group-hover:bg-accent transition-all duration-500 ">
-                      link
-                    </Link> 
+                      </h2>
                     </div> 
+                    <Link href={service.href} className="w-[40px] h-[40px] rounded-full bg-white text-accent flex justify-center items-center  group-hover:bg-accent transition-all duration-500 hover:-rotate-45">
+                      <BsArrowDownRight className="text-primary text-xl"/>
+                    </Link> 
+                     
+                  </div> 
+                   
+                  <div>Cấu hình đã build: <span className="text-accent text-2xl">{service.num}</span></div>
+                    
+                  <p>
+                    {service.describe}
+                  </p>
+                  
                                       
                   <div className="border-b border-white/20 w-full h-full"> </div>
                 </div>

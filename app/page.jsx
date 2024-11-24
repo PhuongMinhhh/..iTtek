@@ -14,9 +14,9 @@ export default function Home() {
           <span className="text-xl">
             Giới thiệu
           </span>
-          <h1 className="h1 mb-6 whitespace-nowrap scroll-animation">
+          <h1 className="h1 mb-6 whitespace-nowrap scroll-animation ">
             Xin chào,
-            <br/> Mình là <span className="text-accent">.it</span>Tek
+            <br/> Mình là <span className="text-accent ">.it</span><span>Tek</span>
             <br/>
             Rất vui khi gặp bạn !
           </h1>

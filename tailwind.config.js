@@ -20,12 +20,12 @@ module.exports = {
   		colors: {
   			primary: "#1c1c22",
 			accent:{
-				DEFAULT: "#f97316",
-				hover:"##fbbf24"
+				DEFAULT: "#86198f",
+				hover:"#86198f"
 			},
 			logo: {
-				DEFAULT : " #ea580c",
-				hover: "#f97316",
+				DEFAULT : " #86198f",
+				hover: "#86198f",
 				
 			}
   			
