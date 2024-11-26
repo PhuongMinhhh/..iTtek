@@ -12,7 +12,7 @@ export default function Home() {
       <div className="flex flex-col xl:flex-row justify-between items-center xl:pt-8 xl:pb-24">
         <div className="text-center xl:text-left order-2 xl:order-none">
           <span className="text-xl">
-            Giới thiệu
+            
           </span>
           <h1 className="h1 mb-6 whitespace-nowrap scroll-animation ">
             Xin chào,
